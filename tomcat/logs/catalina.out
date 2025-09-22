@@ -1,0 +1,42 @@
+22-Sep-2025 22:32:10.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.11
+22-Sep-2025 22:32:10.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 10:24:44 UTC
+22-Sep-2025 22:32:10.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.11.0
+22-Sep-2025 22:32:10.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Sep-2025 22:32:10.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.97+
+22-Sep-2025 22:32:10.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Sep-2025 22:32:10.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+22-Sep-2025 22:32:10.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.16+8-Ubuntu-0ubuntu124.04.1
+22-Sep-2025 22:32:10.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+22-Sep-2025 22:32:10.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/bruceli_isccol/java-projects/tomcat
+22-Sep-2025 22:32:10.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/bruceli_isccol/java-projects/tomcat
+22-Sep-2025 22:32:10.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/bruceli_isccol/java-projects/tomcat/conf/logging.properties
+22-Sep-2025 22:32:10.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Sep-2025 22:32:10.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+22-Sep-2025 22:32:10.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/bruceli_isccol/java-projects/tomcat
+22-Sep-2025 22:32:10.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/bruceli_isccol/java-projects/tomcat
+22-Sep-2025 22:32:10.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/bruceli_isccol/java-projects/tomcat/temp
+22-Sep-2025 22:32:10.911 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+22-Sep-2025 22:32:11.379 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Sep-2025 22:32:11.429 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [916] milliseconds
+22-Sep-2025 22:32:11.505 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Sep-2025 22:32:11.506 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.11]
+22-Sep-2025 22:32:11.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/ROOT]
+22-Sep-2025 22:32:12.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/ROOT] has finished in [478] ms
+22-Sep-2025 22:32:12.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/manager]
+22-Sep-2025 22:32:12.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/manager] has finished in [55] ms
+22-Sep-2025 22:32:12.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/docs]
+22-Sep-2025 22:32:12.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/docs] has finished in [35] ms
+22-Sep-2025 22:32:12.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/host-manager]
+22-Sep-2025 22:32:12.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/host-manager] has finished in [26] ms
+22-Sep-2025 22:32:12.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/examples]
+22-Sep-2025 22:32:12.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/bruceli_isccol/java-projects/tomcat/webapps/examples] has finished in [341] ms
+22-Sep-2025 22:32:12.468 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Sep-2025 22:32:12.490 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1061] milliseconds
