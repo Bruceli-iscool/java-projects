@@ -6,7 +6,7 @@ public class HelloWorldServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         // set writer output type.
-        response.setContentTime("text/html");
+        response.setContentType("text/html");
         // get writer.
         PrintWriter writer = response.getWriter();
         // write
