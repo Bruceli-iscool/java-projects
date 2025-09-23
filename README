@@ -1,2 +1,8 @@
 tutorial: https://docs.oracle.com/javaee/7/tutorial/index.html
 newer tutorial: https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html
+
+Compile Servlets:
+javac -cp "./tomcat/lib/jakarta.servlet-api.jar" -d build AppName/src/ServletName.java
+
+Package into WAR:
+jar -cvf OutPutName.war AppName/
