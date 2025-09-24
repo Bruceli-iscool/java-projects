@@ -10,6 +10,7 @@ public class HelloWorldServlet extends HttpServlet {
         // get writer.
         PrintWriter writer = response.getWriter();
         // write
+        writer.write("<title>Hello, World! As a Servlet</title>");
         writer.write("<h1>Hello, World!</h1>");
     }
 }
