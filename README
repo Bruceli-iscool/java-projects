@@ -5,4 +5,5 @@ Compile Servlets:
 javac -cp "./tomcat/lib/jakarta.servlet-api-6.1.0.jar" -d ./AppName/WEB-INF/classes AppName/src/ServletName.java
 
 Package into WAR:
-jar -cvf OutputName.war AppName/
+cd AppName
+jar cvf AppName.war .
